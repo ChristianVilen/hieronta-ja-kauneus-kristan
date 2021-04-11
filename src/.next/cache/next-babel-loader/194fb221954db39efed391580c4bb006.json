@@ -1,0 +1,34 @@
+{
+  "ast": null,
+  "code": "var _this = this,\n    _jsxFileName = \"/Users/cvilen/workspace/hieronta-ja-kauneus-kristan/src/components/contact/ContactForm.tsx\",\n    _s = $RefreshSig$();\n\nvar __jsx = React.createElement;\nimport React, { useState } from \"react\";\nimport { triggerAnalyticsEvent } from \"lib/gtag\";\n\nvar ContactForm = function ContactForm() {\n  _s();\n\n  var _useState = useState(\"\"),\n      message = _useState[0],\n      setMessage = _useState[1];\n\n  var _useState2 = useState(\"\"),\n      errorMessage = _useState2[0],\n      setErrorMessage = _useState2[1];\n\n  var handleSubmit = function handleSubmit(e) {\n    e.preventDefault();\n\n    if (!!message) {\n      setErrorMessage(\"\");\n      triggerAnalyticsEvent({\n        action: \"submit_form\",\n        category: \"Contact\",\n        label: \"Form submission\"\n      });\n    } else {\n      setErrorMessage(\"You can't send an empty message !\");\n    }\n\n    setMessage(\"\");\n  };\n\n  return __jsx(\"form\", {\n    className: \"mt-8 sm:w-1/2 xl:w-1/3\",\n    onSubmit: handleSubmit,\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 25,\n      columnNumber: 5\n    }\n  }, __jsx(\"div\", {\n    className: \"relative w-full\",\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 26,\n      columnNumber: 7\n    }\n  }, __jsx(\"label\", {\n    className: \"block text-sm font-semibold mb-2\",\n    htmlFor: \"message\",\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 27,\n      columnNumber: 9\n    }\n  }, \"Message\"), __jsx(\"textarea\", {\n    rows: 4,\n    cols: 80,\n    onChange: function onChange(e) {\n      return setMessage(e.target.value);\n    },\n    value: message,\n    className: \"px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full\",\n    placeholder: \"Type a message...\",\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 30,\n      columnNumber: 9\n    }\n  })), __jsx(\"button\", {\n    className: \"btn btn-primary mt-2\",\n    type: \"submit\",\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 40,\n      columnNumber: 7\n    }\n  }, \"Send Message\"), __jsx(\"p\", {\n    className: \"error-message opacity-100 font-semibold text-red-500 mt-2\",\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 43,\n      columnNumber: 7\n    }\n  }, errorMessage));\n};\n\n_s(ContactForm, \"gz6jFUBxEOv/Oq51EPIwUGYL63o=\");\n\n_c = ContactForm;\nexport default ContactForm;\n\nvar _c;\n\n$RefreshReg$(_c, \"ContactForm\");",
+  "map": {
+    "version": 3,
+    "sources": [
+      "/Users/cvilen/workspace/hieronta-ja-kauneus-kristan/src/components/contact/ContactForm.tsx"
+    ],
+    "names": [
+      "React",
+      "useState",
+      "triggerAnalyticsEvent",
+      "ContactForm",
+      "message",
+      "setMessage",
+      "errorMessage",
+      "setErrorMessage",
+      "handleSubmit",
+      "e",
+      "preventDefault",
+      "action",
+      "category",
+      "label",
+      "target",
+      "value"
+    ],
+    "mappings": ";;;;;AAAA,OAAOA,KAAP,IAAgBC,QAAhB,QAAgC,OAAhC;AACA,SAASC,qBAAT,QAAsC,UAAtC;;AAEA,IAAMC,WAAW,GAAG,SAAdA,WAAc,GAAM;AAAA;;AAAA,kBACMF,QAAQ,CAAC,EAAD,CADd;AAAA,MACjBG,OADiB;AAAA,MACRC,UADQ;;AAAA,mBAEgBJ,QAAQ,CAAC,EAAD,CAFxB;AAAA,MAEjBK,YAFiB;AAAA,MAEHC,eAFG;;AAIxB,MAAMC,YAAY,GAAG,SAAfA,YAAe,CAAAC,CAAC,EAAI;AACxBA,IAAAA,CAAC,CAACC,cAAF;;AACA,QAAI,CAAC,CAACN,OAAN,EAAe;AACbG,MAAAA,eAAe,CAAC,EAAD,CAAf;AACAL,MAAAA,qBAAqB,CAAC;AACpBS,QAAAA,MAAM,EAAE,aADY;AAEpBC,QAAAA,QAAQ,EAAE,SAFU;AAGpBC,QAAAA,KAAK,EAAE;AAHa,OAAD,CAArB;AAKD,KAPD,MAOO;AACLN,MAAAA,eAAe,CAAC,mCAAD,CAAf;AACD;;AAEDF,IAAAA,UAAU,CAAC,EAAD,CAAV;AACD,GAdD;;AAgBA,SACE;AAAM,IAAA,SAAS,EAAC,wBAAhB;AAAyC,IAAA,QAAQ,EAAEG,YAAnD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE;AAAK,IAAA,SAAS,EAAC,iBAAf;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE;AAAO,IAAA,SAAS,EAAC,kCAAjB;AAAoD,IAAA,OAAO,EAAC,SAA5D;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,eADF,EAIE;AACE,IAAA,IAAI,EAAE,CADR;AAEE,IAAA,IAAI,EAAE,EAFR;AAGE,IAAA,QAAQ,EAAE,kBAAAC,CAAC;AAAA,aAAIJ,UAAU,CAACI,CAAC,CAACK,MAAF,CAASC,KAAV,CAAd;AAAA,KAHb;AAIE,IAAA,KAAK,EAAEX,OAJT;AAKE,IAAA,SAAS,EAAC,+GALZ;AAME,IAAA,WAAW,EAAC,mBANd;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAJF,CADF,EAeE;AAAQ,IAAA,SAAS,EAAC,sBAAlB;AAAyC,IAAA,IAAI,EAAC,QAA9C;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,oBAfF,EAkBE;AAAG,IAAA,SAAS,EAAC,2DAAb;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACGE,YADH,CAlBF,CADF;AAwBD,CA5CD;;GAAMH,W;;KAAAA,W;AA8CN,eAAeA,WAAf",
+    "sourcesContent": [
+      "import React, { useState } from \"react\";\nimport { triggerAnalyticsEvent } from \"lib/gtag\";\n\nconst ContactForm = () => {\n  const [message, setMessage] = useState(\"\");\n  const [errorMessage, setErrorMessage] = useState(\"\");\n\n  const handleSubmit = e => {\n    e.preventDefault();\n    if (!!message) {\n      setErrorMessage(\"\");\n      triggerAnalyticsEvent({\n        action: \"submit_form\",\n        category: \"Contact\",\n        label: \"Form submission\"\n      });\n    } else {\n      setErrorMessage(\"You can't send an empty message !\");\n    }\n\n    setMessage(\"\");\n  };\n\n  return (\n    <form className=\"mt-8 sm:w-1/2 xl:w-1/3\" onSubmit={handleSubmit}>\n      <div className=\"relative w-full\">\n        <label className=\"block text-sm font-semibold mb-2\" htmlFor=\"message\">\n          Message\n        </label>\n        <textarea\n          rows={4}\n          cols={80}\n          onChange={e => setMessage(e.target.value)}\n          value={message}\n          className=\"px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full\"\n          placeholder=\"Type a message...\"\n        />\n      </div>\n\n      <button className=\"btn btn-primary mt-2\" type=\"submit\">\n        Send Message\n      </button>\n      <p className=\"error-message opacity-100 font-semibold text-red-500 mt-2\">\n        {errorMessage}\n      </p>\n    </form>\n  );\n};\n\nexport default ContactForm;\n"
+    ]
+  },
+  "metadata": {},
+  "sourceType": "module"
+}

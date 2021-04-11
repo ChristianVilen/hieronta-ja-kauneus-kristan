@@ -1,0 +1,17 @@
+{
+  "ast": null,
+  "code": "var _jsxFileName = \"/Users/cvilen/workspace/hieronta-ja-kauneus-kristan/src/components/base/Icon.tsx\";\nvar __jsx = React.createElement;\nimport React from \"react\";\n\nconst Icon = props => {\n  const {\n    name,\n    file\n  } = props.icon;\n  return __jsx(\"div\", {\n    className: \"flex flex-col items-center\",\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 13,\n      columnNumber: 5\n    }\n  }, __jsx(\"div\", {\n    className: \"rounded-full bg-white shadow-md h-12 w-12 sm:h-16 sm:w-16 flex items-center justify-center \" + props.className,\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 14,\n      columnNumber: 7\n    }\n  }, __jsx(\"img\", {\n    src: \"/static/icons/\" + file,\n    alt: name,\n    className: \"h-6 w-6 sm:h-8 sm:w-8\",\n    title: name + \"logo\",\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 20,\n      columnNumber: 9\n    }\n  })), __jsx(\"p\", {\n    className: \"text-xs opacity-75\",\n    __self: this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 27,\n      columnNumber: 7\n    }\n  }, name));\n};\n\nexport default Icon;",
+  "map": {
+    "version": 3,
+    "sources": [
+      "/Users/cvilen/workspace/hieronta-ja-kauneus-kristan/src/components/base/Icon.tsx"
+    ],
+    "names": ["React", "Icon", "props", "name", "file", "icon", "className"],
+    "mappings": ";;AAAA,OAAOA,KAAP,MAAkB,OAAlB;;AASA,MAAMC,IAAI,GAAIC,KAAD,IAA6D;AACxE,QAAM;AAAEC,IAAAA,IAAF;AAAQC,IAAAA;AAAR,MAAiBF,KAAK,CAACG,IAA7B;AACA,SACE;AAAK,IAAA,SAAS,EAAC,4BAAf;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE;AACE,IAAA,SAAS,EACP,gGACAH,KAAK,CAACI,SAHV;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KAME;AACE,IAAA,GAAG,EAAE,mBAAmBF,IAD1B;AAEE,IAAA,GAAG,EAAED,IAFP;AAGE,IAAA,SAAS,EAAC,uBAHZ;AAIE,IAAA,KAAK,EAAEA,IAAI,GAAG,MAJhB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IANF,CADF,EAcE;AAAG,IAAA,SAAS,EAAC,oBAAb;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KAAmCA,IAAnC,CAdF,CADF;AAkBD,CApBD;;AAsBA,eAAeF,IAAf",
+    "sourcesContent": [
+      "import React from \"react\";\n\ninterface IconProps {\n  icon: {\n    name: string;\n    file: string;\n  };\n}\n\nconst Icon = (props: IconProps & React.HTMLAttributes<HTMLDivElement>) => {\n  const { name, file } = props.icon;\n  return (\n    <div className=\"flex flex-col items-center\">\n      <div\n        className={\n          \"rounded-full bg-white shadow-md h-12 w-12 sm:h-16 sm:w-16 flex items-center justify-center \" +\n          props.className\n        }\n      >\n        <img\n          src={\"/static/icons/\" + file}\n          alt={name}\n          className=\"h-6 w-6 sm:h-8 sm:w-8\"\n          title={name + \"logo\"}\n        />\n      </div>\n      <p className=\"text-xs opacity-75\">{name}</p>\n    </div>\n  );\n};\n\nexport default Icon;\n"
+    ]
+  },
+  "metadata": {},
+  "sourceType": "module"
+}

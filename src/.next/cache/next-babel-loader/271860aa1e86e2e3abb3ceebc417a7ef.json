@@ -1,0 +1,26 @@
+{
+  "ast": null,
+  "code": "var _this = this,\n    _jsxFileName = \"/Users/cvilen/workspace/hieronta-ja-kauneus-kristan/src/components/layout/Page.tsx\";\n\nvar __jsx = React.createElement;\nimport Head from \"components/layout/Head\";\nimport Header from \"components/layout/Header\";\nimport React from \"react\";\nimport Footer from \"./Footer\"; // TODO: add stuff\n\nvar Page = function Page(props) {\n  return __jsx(React.Fragment, null, __jsx(Head, {\n    description: \"Add desc\",\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 9,\n      columnNumber: 5\n    }\n  }), __jsx(Header, {\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 10,\n      columnNumber: 5\n    }\n  }), __jsx(\"main\", {\n    className: \"flex-grow flex items-center justify-center bg-gray-100\",\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 11,\n      columnNumber: 5\n    }\n  }, __jsx(\"div\", {\n    className: \"container h-full mx-auto py-16 \" + props.className,\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 12,\n      columnNumber: 7\n    }\n  }, props.children)), __jsx(Footer, {\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 16,\n      columnNumber: 5\n    }\n  }));\n};\n\n_c = Page;\nexport default Page;\n\nvar _c;\n\n$RefreshReg$(_c, \"Page\");",
+  "map": {
+    "version": 3,
+    "sources": [
+      "/Users/cvilen/workspace/hieronta-ja-kauneus-kristan/src/components/layout/Page.tsx"
+    ],
+    "names": [
+      "Head",
+      "Header",
+      "React",
+      "Footer",
+      "Page",
+      "props",
+      "className",
+      "children"
+    ],
+    "mappings": ";;;;AAAA,OAAOA,IAAP,MAAiB,wBAAjB;AACA,OAAOC,MAAP,MAAmB,0BAAnB;AACA,OAAOC,KAAP,MAAkB,OAAlB;AACA,OAAOC,MAAP,MAAmB,UAAnB,C,CAEA;;AACA,IAAMC,IAAI,GAAG,SAAPA,IAAO,CAACC,KAAD;AAAA,SACX,4BACE,MAAC,IAAD;AAAM,IAAA,WAAW,EAAC,UAAlB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADF,EAEE,MAAC,MAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAFF,EAGE;AAAM,IAAA,SAAS,EAAE,wDAAjB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE;AAAK,IAAA,SAAS,EAAE,oCAAoCA,KAAK,CAACC,SAA1D;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACGD,KAAK,CAACE,QADT,CADF,CAHF,EAQE,MAAC,MAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IARF,CADW;AAAA,CAAb;;KAAMH,I;AAaN,eAAeA,IAAf",
+    "sourcesContent": [
+      "import Head from \"components/layout/Head\";\nimport Header from \"components/layout/Header\";\nimport React from \"react\";\nimport Footer from \"./Footer\";\n\n// TODO: add stuff\nconst Page = (props) => (\n  <>\n    <Head description=\"Add desc\" />\n    <Header />\n    <main className={\"flex-grow flex items-center justify-center bg-gray-100\"}>\n      <div className={\"container h-full mx-auto py-16 \" + props.className}>\n        {props.children}\n      </div>\n    </main>\n    <Footer />\n  </>\n);\n\nexport default Page;\n"
+    ]
+  },
+  "metadata": {},
+  "sourceType": "module"
+}

@@ -1,0 +1,34 @@
+{
+  "ast": null,
+  "code": "var _this = this,\n    _jsxFileName = \"/Users/cvilen/workspace/hieronta-ja-kauneus-kristan/src/components/layout/Head.tsx\";\n\nvar __jsx = React.createElement;\nimport NextHead from \"next/head\";\nimport React from \"react\"; // TODO: Add description\n\nvar defaultDescription = \"Add description\";\nvar defaultOGURL = process.env.appUrl;\nvar defaultOGImage = defaultOGURL + \"/static/og-image.png\";\nvar defaultTitle = process.env.appTitle;\n\nvar Head = function Head(props) {\n  return __jsx(NextHead, {\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 11,\n      columnNumber: 3\n    }\n  }, __jsx(\"meta\", {\n    charSet: \"UTF-8\",\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 12,\n      columnNumber: 5\n    }\n  }), __jsx(\"title\", {\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 13,\n      columnNumber: 5\n    }\n  }, props.title || defaultTitle), __jsx(\"meta\", {\n    name: \"description\",\n    content: props.description || defaultDescription,\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 14,\n      columnNumber: 5\n    }\n  }), __jsx(\"meta\", {\n    name: \"viewport\",\n    content: \"width=device-width, initial-scale=1\",\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 15,\n      columnNumber: 5\n    }\n  }), __jsx(\"link\", {\n    rel: \"icon\",\n    href: \"/static/favicon.ico\",\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 16,\n      columnNumber: 5\n    }\n  }), __jsx(\"meta\", {\n    property: \"og:url\",\n    content: props.url || defaultOGURL,\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 17,\n      columnNumber: 5\n    }\n  }), __jsx(\"meta\", {\n    property: \"og:title\",\n    content: props.title || defaultTitle,\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 18,\n      columnNumber: 5\n    }\n  }), __jsx(\"meta\", {\n    property: \"og:description\",\n    content: props.description || defaultDescription,\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 19,\n      columnNumber: 5\n    }\n  }), __jsx(\"meta\", {\n    name: \"twitter:site\",\n    content: props.url || defaultOGURL,\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 20,\n      columnNumber: 5\n    }\n  }), __jsx(\"meta\", {\n    name: \"twitter:card\",\n    content: \"summary_large_image\",\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 21,\n      columnNumber: 5\n    }\n  }), __jsx(\"meta\", {\n    name: \"twitter:image\",\n    content: props.ogImage || defaultOGImage,\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 22,\n      columnNumber: 5\n    }\n  }), __jsx(\"meta\", {\n    property: \"og:image\",\n    content: props.ogImage || defaultOGImage,\n    __self: _this,\n    __source: {\n      fileName: _jsxFileName,\n      lineNumber: 23,\n      columnNumber: 5\n    }\n  }));\n};\n\n_c = Head;\nexport default Head;\n\nvar _c;\n\n$RefreshReg$(_c, \"Head\");",
+  "map": {
+    "version": 3,
+    "sources": [
+      "/Users/cvilen/workspace/hieronta-ja-kauneus-kristan/src/components/layout/Head.tsx"
+    ],
+    "names": [
+      "NextHead",
+      "React",
+      "defaultDescription",
+      "defaultOGURL",
+      "process",
+      "env",
+      "appUrl",
+      "defaultOGImage",
+      "defaultTitle",
+      "appTitle",
+      "Head",
+      "props",
+      "title",
+      "description",
+      "url",
+      "ogImage"
+    ],
+    "mappings": ";;;;AAAA,OAAOA,QAAP,MAAqB,WAArB;AACA,OAAOC,KAAP,MAAkB,OAAlB,C,CAEA;;AACA,IAAMC,kBAAkB,GAAG,iBAA3B;AACA,IAAMC,YAAY,GAAGC,OAAO,CAACC,GAAR,CAAYC,MAAjC;AACA,IAAMC,cAAc,GAAGJ,YAAY,GAAG,sBAAtC;AACA,IAAMK,YAAY,GAAGJ,OAAO,CAACC,GAAR,CAAYI,QAAjC;;AAEA,IAAMC,IAAI,GAAG,SAAPA,IAAO,CAACC,KAAD;AAAA,SACX,MAAC,QAAD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KACE;AAAM,IAAA,OAAO,EAAC,OAAd;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IADF,EAEE;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,KAAQA,KAAK,CAACC,KAAN,IAAeJ,YAAvB,CAFF,EAGE;AAAM,IAAA,IAAI,EAAC,aAAX;AAAyB,IAAA,OAAO,EAAEG,KAAK,CAACE,WAAN,IAAqBX,kBAAvD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAHF,EAIE;AAAM,IAAA,IAAI,EAAC,UAAX;AAAsB,IAAA,OAAO,EAAC,qCAA9B;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAJF,EAKE;AAAM,IAAA,GAAG,EAAC,MAAV;AAAiB,IAAA,IAAI,EAAC,qBAAtB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IALF,EAME;AAAM,IAAA,QAAQ,EAAC,QAAf;AAAwB,IAAA,OAAO,EAAES,KAAK,CAACG,GAAN,IAAaX,YAA9C;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IANF,EAOE;AAAM,IAAA,QAAQ,EAAC,UAAf;AAA0B,IAAA,OAAO,EAAEQ,KAAK,CAACC,KAAN,IAAeJ,YAAlD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAPF,EAQE;AAAM,IAAA,QAAQ,EAAC,gBAAf;AAAgC,IAAA,OAAO,EAAEG,KAAK,CAACE,WAAN,IAAqBX,kBAA9D;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IARF,EASE;AAAM,IAAA,IAAI,EAAC,cAAX;AAA0B,IAAA,OAAO,EAAES,KAAK,CAACG,GAAN,IAAaX,YAAhD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IATF,EAUE;AAAM,IAAA,IAAI,EAAC,cAAX;AAA0B,IAAA,OAAO,EAAC,qBAAlC;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAVF,EAWE;AAAM,IAAA,IAAI,EAAC,eAAX;AAA2B,IAAA,OAAO,EAAEQ,KAAK,CAACI,OAAN,IAAiBR,cAArD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAXF,EAYE;AAAM,IAAA,QAAQ,EAAC,UAAf;AAA0B,IAAA,OAAO,EAAEI,KAAK,CAACI,OAAN,IAAiBR,cAApD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,IAZF,CADW;AAAA,CAAb;;KAAMG,I;AAiBN,eAAeA,IAAf",
+    "sourcesContent": [
+      "import NextHead from \"next/head\";\nimport React from \"react\";\n\n// TODO: Add description\nconst defaultDescription = \"Add description\";\nconst defaultOGURL = process.env.appUrl;\nconst defaultOGImage = defaultOGURL + \"/static/og-image.png\";\nconst defaultTitle = process.env.appTitle;\n\nconst Head = (props) => (\n  <NextHead>\n    <meta charSet=\"UTF-8\" />\n    <title>{props.title || defaultTitle}</title>\n    <meta name=\"description\" content={props.description || defaultDescription} />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link rel=\"icon\" href=\"/static/favicon.ico\" />\n    <meta property=\"og:url\" content={props.url || defaultOGURL} />\n    <meta property=\"og:title\" content={props.title || defaultTitle} />\n    <meta property=\"og:description\" content={props.description || defaultDescription} />\n    <meta name=\"twitter:site\" content={props.url || defaultOGURL} />\n    <meta name=\"twitter:card\" content=\"summary_large_image\" />\n    <meta name=\"twitter:image\" content={props.ogImage || defaultOGImage} />\n    <meta property=\"og:image\" content={props.ogImage || defaultOGImage} />\n  </NextHead>\n);\n\nexport default Head;\n"
+    ]
+  },
+  "metadata": {},
+  "sourceType": "module"
+}
