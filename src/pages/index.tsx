@@ -36,9 +36,9 @@ const Index = () => (
       ,
       <br />
       sekä <b>alainen</b> päähieronta. Kaulan, pään ja purentalihasten jumeihin
-      auttaa H.A.A.- hieronta menetelmä. Kosmetologipalveluina tarjolla on mm.{" "}
-      <b>kasvohoito</b>, <b>ihonpuhdistus</b>, <b>jalkahoito</b> ja{" "}
-      <b>kestovärjäykset</b>.
+      auttaa H.A.A.- hieronta menetelmä. <br />
+      Kosmetologipalveluina tarjolla on mm. <b>kasvohoito</b>,{" "}
+      <b>ihonpuhdistus</b>, <b>jalkahoito</b> ja <b>kestovärjäykset</b>.
     </p>
 
     <div className="mt-10">
@@ -47,7 +47,7 @@ const Index = () => (
         ja hyvinvoinnista!
       </p>
     </div>
-    <div className="flex flex-col mt-10 text-sm text-white sm:flex-row">
+    <div className="flex flex-col mt-10 mb-20 text-sm text-white sm:flex-row">
       <LinkButton color="primary" href="/palvelut" className="mx-2">
         Palvelut
       </LinkButton>
