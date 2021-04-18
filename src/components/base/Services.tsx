@@ -43,9 +43,7 @@ const Services = ({ services }: any) => {
           key={index}
         >
           <div className="inline-flex flex-col">
-            <h3 className="text-left text-gray-800 text-2xl mt-1">
-              {item.title}
-            </h3>
+            <h3 className="text-left text-gray text-2xl mt-1">{item.title}</h3>
             {state.map((i) => {
               if (i.key === index && i.open) {
                 return (
