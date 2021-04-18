@@ -27,12 +27,8 @@ const Palvelut = () => {
   ];
 
   return (
-    <Page
-      title={"Palvelut"}
-      desciption={"Kristan eri palvelut"}
-      className="mb-4"
-    >
-      <h1 className="mt-4 text-xl font-semibold sm:text-3xl">Palvelut</h1>
+    <Page title="Palvelut" desciption="Kristan eri palvelut" className="mb-4">
+      <h1 className="mt-5 text-3xl font-semibold sm:text-4xl">Palvelut</h1>
       <Services services={services} />
     </Page>
   );

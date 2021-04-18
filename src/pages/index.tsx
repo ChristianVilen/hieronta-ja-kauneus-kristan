@@ -28,15 +28,16 @@ const Index = () => (
       <i>-Kokonaisvaltaista hyvinvointia-</i>
     </h3>
     <p className="mt-6 text-gray-700">
-      Hieronta& Kauneus KristaN on monipuolinen vuodesta 2006 toiminut hieronta-
-      ja kosmetologipalveluja tarjoava yritys.
+      Hieronta & Kauneus KristaN on monipuolinen vuodesta 2006 toiminut
+      hieronta- ja kosmetologipalveluja tarjoava yritys.
       <br />
-      Hieronta valikoimassamme on <b>urheiluhieronta</b>, klassinen hieronta,
-      lisäksi rentouttavat <b>kuumakivihieronta</b>, <b>aromaterapiahieronta</b>
+      Hieronta valikoimassamme on <b>urheiluhieronta</b>,{" "}
+      <b>klassinen hieronta</b>, lisäksi rentouttavat <b>kuumakivihieronta</b>,{" "}
+      <b>aromaterapiahieronta</b>
       ,
       <br />
-      sekä <b>alainen</b> päähieronta. Kaulan, pään ja purentalihasten jumeihin
-      auttaa H.A.A.- hieronta menetelmä. <br />
+      sekä alainen päähieronta. Kaulan, pään ja purentalihasten jumeihin auttaa
+      H.A.A.- hieronta menetelmä. <br />
       Kosmetologipalveluina tarjolla on mm. <b>kasvohoito</b>,{" "}
       <b>ihonpuhdistus</b>, <b>jalkahoito</b> ja <b>kestovärjäykset</b>.
     </p>
