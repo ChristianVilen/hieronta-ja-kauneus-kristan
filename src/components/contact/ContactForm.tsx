@@ -22,7 +22,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form className="mt-8 sm:w-1/2 xl:w-1/3" onSubmit={handleSubmit}>
+    <form className="mt-8 sm:w-3/4 xl:w-3/4" onSubmit={handleSubmit}>
       <div className="relative w-full">
         <label className="block text-sm font-semibold mb-2" htmlFor="message">
           Message
